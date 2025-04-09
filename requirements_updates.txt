@@ -1,0 +1,10 @@
+# remove dassl from requirements.txt
+# conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1  pytorch-cuda=11.8 -c pytorch -c nvidia
+python=3.7 -> 3.8
+ipython==8.14.0 -> 8.12.1
+scipy ==1.11.1 -> 1.9.1
+torch==2.0.1+cu118 -> 2.4.1+cu118
+torchaudio==2.0.2+cu118 -> 2.4.1+cu118
+torchvision==0.15.2+cu118 -> 0.19.1+cu118
+# ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+#typeguard 4.3.0 requires typing-extensions>=4.10.0, but you have typing-extensions 4.4.0 which is incompatible.
